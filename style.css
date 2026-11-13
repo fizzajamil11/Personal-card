@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+
+}
+.card{
+    max-width: 400px;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(204, 169, 236);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+div img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+}
+img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.header p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+}
+.about p{
+    margin-left: 10px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+.skill ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    justify-content: center;
+
+}
+.skill li{
+    padding: 5px;
+    border: 1px dashed black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.skill li:hover{
+    background-color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+}
+.contact a{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact a:hover{
+    background-color:#7c3aed ;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
